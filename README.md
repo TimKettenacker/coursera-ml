@@ -9,3 +9,7 @@ regression always predicts an aribitrary number
 gradient descend - get closer to local minimums by MSE, loss graph must be smooth, derivative and convex to make sure only one local minimum exists
 logistic regression - as opposed to its name, logistic regression is actually not predicting a number, but a categorical result (but its doing that using a regression operation and a transfer function - transfers number to categorical value)
 support vector machines - used when data is linearily seperable, SVM have a line that has the widest mimimum margin between data points 
+
+accuracy - correctly predicted vs all predictions
+precision - number of true positives / all labelled as positive
+recall - number of true positives / all actual positive instances
